@@ -47,6 +47,7 @@
     <Compile Include="metod_og.cs" />
     <Compile Include="ogolna.cs" />
     <Compile Include="ogolna2.cs" />
+    <Compile Include="Panel_2.cs" />
     <Compile Include="Panel_gl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -14,7 +14,9 @@ namespace Sklep
             //a= Console.ReadLine();
             //ogolna.daj_string_oddaj_int(a);
             //ogolna.daj_string_oddaj_int(a);
-             ogolna.menu_1(Baza_dan.odczyt("Baza.txt"));
+            //ogolna.daj_string_oddaj_int(a);
+            //ogolna.daj_string_oddaj_int(a);
+            ogolna.menu_1(Baza_dan.odczyt("Baza.txt"));
             // Console.WriteLine($"{a}");
             Console.WriteLine($"{ Baza_dan.odczyt("Baza.txt")}");
             Console.ReadKey();

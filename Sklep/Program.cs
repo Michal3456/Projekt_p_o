@@ -10,15 +10,9 @@ namespace Sklep
     {
         static void Main(string[] args)
         {
-            // int a;
-            //a= Console.ReadLine();
-            //ogolna.daj_string_oddaj_int(a);
-            //ogolna.daj_string_oddaj_int(a);
-            //ogolna.daj_string_oddaj_int(a);
-            //ogolna.daj_string_oddaj_int(a);
             ogolna.menu_1(Baza_dan.odczyt("Baza.txt"));
-            // Console.WriteLine($"{a}");
-            Console.WriteLine($"{ Baza_dan.odczyt("Baza.txt")}");
+            Baza_dan.zapis_do_pliku("3454334", "Baza2.txt");
+            Console.WriteLine($"{ Baza_dan.odczyt("Baza2.txt")}");
             Console.ReadKey();
         }
     }

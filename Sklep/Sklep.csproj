@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Baza_dan.cs" />
+    <Compile Include="Baza_produktow.cs" />
     <Compile Include="IWyszukaj.cs" />
     <Compile Include="Koszyk.cs" />
     <Compile Include="metod_og.cs" />

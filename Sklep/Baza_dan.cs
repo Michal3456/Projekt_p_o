@@ -7,7 +7,7 @@ using System.IO;
 
 namespace Sklep
 {
-    class Baza_dan : IWyszukaj
+    class Baza_dan
     {
         public static String odczyt(string pliktxt)
         {
@@ -38,22 +38,7 @@ namespace Sklep
             }
         }
 
-        public int szukac_prod(float min_cena, float max_cen, string nazwa)
-        {
-            return 0;
-        }
-        public int szukac_prod(float min_cena, string nazwa)
-        {
-            return 0;
-        }
-        public int szukac_prod(string nazwa)
-        {
-            return 0;
-        }
-        public int szukac_prod(float max_cen)
-        {
-            return 0;
-        }
+
 
     }
 }
